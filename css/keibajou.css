@@ -168,6 +168,10 @@ ul.g_nav{
 	margin:0 auto;
 }
 
+.sapporo_keibajou{
+	overflow:hidden;
+}
+
 .sapporo_keibajou .setumei{
 	width:50%;
 	display:inline-block;
@@ -178,12 +182,15 @@ ul.g_nav{
 	line-height: 130%;
 }
 
-iframe.sapporo_keibajou{
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+.sapporo_keibajou img{
+	width:50%;
+	float:right;
 }
+
+.hakodate_keibajou{
+	overflow:hidden;
+}
+
 .hakodate_keibajou .setumei{
 	width:50%;
 	display:inline-block;
@@ -194,11 +201,13 @@ iframe.sapporo_keibajou{
 	line-height: 130%;
 }
 
-iframe.hakodate_keibajou{
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+.hakodate_keibajou img{
+	width:50%;
+	float:right;
+}
+
+.hukusima_keibajou{
+	overflow:hidden;
 }
 
 .hukusima_keibajou .setumei{
@@ -211,13 +220,14 @@ iframe.hakodate_keibajou{
 	line-height: 130%;
 }
 
-iframe.hukusima_keibajou{
+.hukusima_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
-	}
+	float:right;
+}
+
+.niigata_keibajou{
+	overflow:hidden;
+}
 
 .niigata_keibajou.setumei{
 	width:50%;
@@ -229,12 +239,13 @@ iframe.hukusima_keibajou{
 	line-height: 130%;
 }
 
-iframe.niigata_keibajou{
+.niigata_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+	float:right;
+}
+
+.tokyo_keibajou{
+	overflow:hidden;
 }
 
 .tokyo_keibajou .setumei{
@@ -247,12 +258,13 @@ iframe.niigata_keibajou{
 	line-height: 130%;
 }
 
-iframe.tokyo_keibajou{
-width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+.tokyo_keibajou img{
+	width:50%;
+	float:right;
+}
+
+.nakayama_keibajou{
+	overflow:hidden;
 }
 
 .nakayama_keibajou .setumei{
@@ -265,12 +277,15 @@ width:50%;
 	line-height: 130%;
 }
 
-iframe.nakayama_keibajou{
+.nakayama_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;}
+	float:right;
+	margin-top:5%;
+}
+
+.tyukyo_keibajou{
+	overflow:hidden;
+}
 
 .tyukyo_keibajou .setumei{
 	width:50%;
@@ -282,12 +297,13 @@ iframe.nakayama_keibajou{
 line-height: 130%;
 }
 
-iframe.tyukyo_keibajou{
+.tyukyo_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+	float:right;
+}
+
+.kyoto_keibajou{
+	overflow:hidden;
 }
 
 .kyoto_keibajou .setumei{
@@ -300,12 +316,13 @@ iframe.tyukyo_keibajou{
 	line-height: 130%;
 }
 
-iframe.kyoto_keibajou{
+.kyoto_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+	float:right;
+}
+
+.hansin_keibajou{
+	overflow:hidden;
 }
 
 .hansin_keibajou .setumei{
@@ -318,13 +335,16 @@ iframe.kyoto_keibajou{
 	line-height: 130%;
 }
 
-iframe.hansin_keibajou{
+.hansin_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:bottom;
-	*display:inline;
-	*zoom:1;
+	float:right;
+	margin-top:5%;
 }
+
+.kokura_keibajou{
+	overflow:hidden;
+}
+
 .kokura_keibajou .setumei{
 	width:50%;
 	display:inline-block;
@@ -335,12 +355,9 @@ iframe.hansin_keibajou{
 	line-height: 130%;
 }
 
-iframe.kokura_keibajou{
+.kokura_keibajou img{
 	width:50%;
-	display:inline-block;
-	vertical-align:top;
-	*display:inline;
-	*zoom:1;
+	float:right;
 }
 
 .g_race{

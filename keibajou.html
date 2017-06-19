@@ -32,6 +32,20 @@ $(function() {
     });
 });
 </script>
+<script>
+    $(function(){  
+　　path = location.pathname  
+　　 if(path.match("index")){  
+    $("ul.navi li.top").addClass("current"); 
+        }
+    if(path.match("keibajou")){  
+    $("ul.navi li.keiba").addClass("current"); 
+    }
+    if(path.match("yougo")){  
+    $("ul.navi li.uma").addClass("current"); 
+    }
+});
+</script>
 
 </head>
 
@@ -46,9 +60,9 @@ $(function() {
     </div>
     <nav class="navigate cf">
       <ul class="navi cf">
-        <li><a href="./index.html">TOP</a></li>
-        <li><a href="./keibajou.html">競馬場</a></li>
-        <li><a href="./yougo.html">馬の脚質</a></li>
+        <li class="top"><a href="./index.html">TOP</a></li>
+        <li class="keiba"><a href="./keibajou.html">競馬場</a></li>
+        <li class="uma"><a href="./yougo.html">馬の脚質</a></li>
       </ul>
     </nav>
   </header>
@@ -61,7 +75,7 @@ $(function() {
 <div id="main">
 <!--main-in-->
 <div id="main-in">
-	<img src="images/siba.jpg" alt="racecourse" class="racecourse">
+	<img src="images/siba.png" alt="racecourse" class="racecourse">
 
 
 <div id="main-contents">
@@ -101,7 +115,7 @@ $(function() {
                         営業時間&emsp;&emsp;9：00～17：00
                     </p>
                 </div>
-                <img src="images/sapporo.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/sapporo.jpg" alt="札幌競馬場">
             </div>
 
                 <div class="g_race">
@@ -129,7 +143,7 @@ $(function() {
                         営業時間&emsp;&emsp;9：00～17：00
                     </p>
                 </div>
-                    <img src="images/hakodate.jpg" alt="札幌競馬場">
+                    <img src="images/keibajou/hakodate.jpg" alt="札幌競馬場">
             	</div>
         		<div class="g_race">
                     <h4>主な重賞レース</h4>
@@ -155,7 +169,7 @@ $(function() {
                         電話番号&emsp;&emsp;024－534－2121<br>
                         営業時間&emsp;&emsp;9：00～17：00</p>
                     </div>
-                    <img src="images/hukusima.jpg" alt="札幌競馬場">
+                    <img src="images/keibajou/hukusima.jpg" alt="札幌競馬場">
                 </div>
                 <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -182,7 +196,7 @@ $(function() {
                     電話番号&emsp;&emsp;025－259－3141<br>
                     営業時間&emsp;&emsp;9:00～17:00</p>
                 </div>
-                <img src="images/niigata.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/niigata.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -209,7 +223,7 @@ $(function() {
                     電話番号&emsp;&emsp;042－363－3141<br>
                     営業時間&emsp;&emsp;9：00～17：00</p>
                 </div>
-                <img src="images/toukyou.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/toukyou.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -235,7 +249,7 @@ $(function() {
                     電話番号&emsp;&emsp;047－334－2222<br>
                     営業時間&emsp;&emsp;9：00～17：00</p>
                 </div>
-                <img src="images/nakayama.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/nakayama.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -261,7 +275,7 @@ $(function() {
                     電話番号&emsp;&emsp;052－623－2001<br>
                     営業時間&emsp;&emsp;9：00～17：00</p>
                 </div>
-                <img src="images/tyukyo.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/tyukyo.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -287,7 +301,7 @@ $(function() {
                     電話番号&emsp;&emsp;075－631－3131<br>
                     営業時間&emsp;&emsp;9：00～17：00</p>
                 </div>
-                <img src="images/kyouto.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/kyouto.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -310,7 +324,7 @@ $(function() {
                 電話番号&emsp;&emsp;093－962－3236<br>
                 営業時間&emsp;&emsp;9：00～17：00</p>
                 </div>
-                <img src="images/hansin.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/hansin.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>
@@ -334,7 +348,7 @@ $(function() {
                     電話番号&emsp;&emsp;093－962－3236<br>
                     営業時間&emsp;&emsp;9:00～17:00</p>
                 </div>
-                <img src="images/kokura.jpg" alt="札幌競馬場">
+                <img src="images/keibajou/kokura.jpg" alt="札幌競馬場">
             </div>
             <div class="g_race">
                 <h4>主な重賞レース</h4>

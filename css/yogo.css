@@ -71,6 +71,12 @@ nav ul a{
 	color:#919795;
 	font-size: 150%;
 }
+
+.current a{
+	opacity:0.5;
+	color:green;
+}
+
 /*header▲*/
 
 

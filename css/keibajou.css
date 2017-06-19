@@ -69,6 +69,12 @@ nav ul a{
 	color:#919795;
 	font-size: 150%;
 }
+
+.current a{
+	opacity:0.5;
+	color:green;
+}
+
 /*header▲*/
 
 
@@ -185,6 +191,7 @@ ul.g_nav{
 .sapporo_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .hakodate_keibajou{
@@ -204,6 +211,7 @@ ul.g_nav{
 .hakodate_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .hukusima_keibajou{
@@ -223,6 +231,7 @@ ul.g_nav{
 .hukusima_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .niigata_keibajou{
@@ -242,6 +251,7 @@ ul.g_nav{
 .niigata_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .tokyo_keibajou{
@@ -261,6 +271,7 @@ ul.g_nav{
 .tokyo_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .nakayama_keibajou{
@@ -300,6 +311,7 @@ line-height: 130%;
 .tyukyo_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .kyoto_keibajou{
@@ -319,6 +331,7 @@ line-height: 130%;
 .kyoto_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .hansin_keibajou{
@@ -358,6 +371,7 @@ line-height: 130%;
 .kokura_keibajou img{
 	width:50%;
 	float:right;
+	margin-top:5%;
 }
 
 .g_race{

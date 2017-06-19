@@ -59,6 +59,11 @@
 		font-size: 100%;
 	}
 
+	.current a{
+	opacity:0.5;
+	color:green;
+}
+
 /*main��*/
 
 .runninghorse{

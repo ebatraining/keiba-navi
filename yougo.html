@@ -31,6 +31,20 @@ $(function() {
     });
 });
 </script>
+<script>
+  $(function(){  
+　　path = location.pathname  
+　　 if(path.match("index")){  
+    $("ul.navi li.top").addClass("current"); 
+        }
+    if(path.match("keibajou")){  
+    $("ul.navi li.keiba").addClass("current"); 
+    }
+    if(path.match("yougo")){  
+    $("ul.navi li.uma").addClass("current"); 
+    }
+});
+</script>
 </head>
 
 <body id="home" class="col2">
@@ -46,9 +60,9 @@ $(function() {
       </div>
       <nav class="navigate cf">
         <ul class="navi cf">
-          <li><a href="./index.html">TOP</a></li>
-          <li><a href="./keibajou.html">競馬場</a></li>
-          <li><a href="./yougo.html">馬の脚質</a></li>
+          <li class="top"><a href="./index.html">TOP</a></li>
+          <li class="keiba"><a href="./keibajou.html">競馬場</a></li>
+          <li class="uma"><a href="./yougo.html">馬の脚質</a></li>
         </ul>
       </nav>
     </header>

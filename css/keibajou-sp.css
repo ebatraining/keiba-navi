@@ -61,6 +61,10 @@
 		font-size: 100%;
 	}
 
+.current a{
+	opacity:0.5;
+	color:green;
+}
 
 
 /*main��*/
@@ -151,10 +155,10 @@ width: 100%;
 	padding-left: 0;
 }
 
-iframe.sapporo_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.sapporo_keibajou img{
+	width:100%;
 }
+
 .hakodate_keibajou .setumei{
 	width: 100%;
 	font-size: 100%;
@@ -162,9 +166,8 @@ iframe.sapporo_keibajou{
 	padding-left: 0;
 }
 
-iframe.hakodate_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.hakodate_keibajou img{
+	width:100%;
 }
 
 .hukusima_keibajou .setumei{
@@ -174,9 +177,8 @@ iframe.hakodate_keibajou{
 	padding-left: 0;
 }
 
-iframe.hukusima_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.hukusima_keibajou img{
+	width:100%;
 }
 
 .niigata_keibajou.setumei{
@@ -186,9 +188,8 @@ iframe.hukusima_keibajou{
 	padding-left: 0;
 }
 
-iframe.niigata_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.niigata_keibajou img{
+	width:100%;
 }
 
 .tokyo_keibajou .setumei{
@@ -198,9 +199,8 @@ iframe.niigata_keibajou{
 	padding-left: 0;
 }
 
-iframe.tokyo_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.tokyo_keibajou img{
+	width:100%;
 }
 
 .nakayama_keibajou .setumei{
@@ -210,9 +210,8 @@ iframe.tokyo_keibajou{
 	padding-left: 0;
 }
 
-iframe.nakayama_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.nakayama_keibajou img{
+	width:100%;
 }
 
 .tyukyo_keibajou .setumei{
@@ -222,9 +221,8 @@ iframe.nakayama_keibajou{
 	padding-left: 0;
 }
 
-iframe.tyukyo_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.tyukyo_keibajou img{
+	width:100%;
 }
 
 .kyoto_keibajou .setumei{
@@ -234,9 +232,8 @@ iframe.tyukyo_keibajou{
 	padding-left: 0;
 }
 
-iframe.kyoto_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.kyoto_keibajou img{
+	width:100%;
 }
 
 .hansin_keibajou .setumei{
@@ -246,10 +243,10 @@ iframe.kyoto_keibajou{
 	padding-left: 0;
 }
 
-iframe.hansin_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.hansin_keibajou img{
+	width:100%;
 }
+
 .kokura_keibajou .setumei{
 	width: 100%;
 	font-size: 100%;
@@ -257,9 +254,8 @@ iframe.hansin_keibajou{
 	padding-left: 0;
 }
 
-iframe.kokura_keibajou{
-	width: 100%;
-	margin: 0 auto;
+.kokura_keibajou img{
+	width:100%;
 }
 
 

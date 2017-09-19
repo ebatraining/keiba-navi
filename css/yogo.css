@@ -132,52 +132,24 @@ border-bottom: 4px double #ccc;
 	width: 50%;
 	float: left;
 	margin-top: 3%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-
-.oikomi:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
 }
 
 .sashi{
 	width: 50%;
 	float: right;
 	margin-top: 3%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-
-.sashi:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
 }
 
 .nige{
 	width: 50%;
 	float: left;
 	margin-bottom: 3%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-
-.nige:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
 }
 
 .sennkou{
 	width: 50%;
 	float: right;
 	margin-bottom: 3%;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-
-.sennkou:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
 }
 /* 50音アイコン */
 
